@@ -59,7 +59,7 @@ nav li:first-child {
 }
 
 nav li a:first-child {
-    color: #ffffff;
+    color: #ffffff !important;
 }
 
 nav li a:first-child:visited {
