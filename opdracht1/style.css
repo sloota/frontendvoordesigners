@@ -58,6 +58,10 @@ nav li:first-child {
     font-family: Roboto slab;
 }
 
+nav li a:first-child {
+    color: #ffffff;
+}
+
 nav li a:first-child:visited {
     color: #ffffff;
 }
