@@ -1,11 +1,11 @@
 # frontend voor designers - opdracht 1
-Hier beschrijf je de opdracht, wat je hebt gemaakt en hoe je je ontwerp door verschillende versies te testen hebt verbeterd. Bij iedere test voeg je een link toe naar de betreffende demo.
+Bij de eerste opdracht koos ik voor de case van de studentenhuizen, door op meer lezen te klikken komt er meer informatie in beeld. Verder als je op inschrijven klikt krijg je ook meer info, maar dan op een andere manier. Wilde hier info over prijzen etc en een knop doen maar heb hier nog niet aantoe gekomen. Ohh en als je over de afbeelding hovert draait hij, vond ik ff leuk.
+ 
+Een link naar opdracht 1, om zelf uit te kunnen uitproberen:
 
-Bijvoorbeel bij de demo van versie in kun je zo een link maken, zodat iedereen de demo zelf kan uitproberen:
-
-[Demo 1 voor opdracht 1](https://koopreynders.github.io/frontendvoordesigners/opdracht1/v1/)
+[Demo 1 voor opdracht 1](https://sloota.github.io/frontendvoordesigners/opdracht1/v1/)
 
 
-Je kan ook een link plaatsen naar de bron code van de demo:
+Een link naar de code van opdracht 1:
 
-[Code demo 1 voor opdracht 1](https://github.com/KoopReynders/frontendvoordesigners/blob/master/opdracht1/v1/)
+[Code demo 1 voor opdracht 1](https://github.com/sloota/frontendvoordesigners/tree/master/opdracht1/v1/)
