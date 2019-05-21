@@ -53,7 +53,7 @@ nav li:first-child {
     margin: 0;
     margin-top: 0.5rem;
     margin-right: auto;
-    color: #ffffff;
+    color: #ffffff !important;
     font-size: 2rem;
     font-family: Roboto slab;
 }
