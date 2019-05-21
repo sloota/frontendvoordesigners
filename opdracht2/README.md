@@ -1,5 +1,5 @@
 # frontend voor designers - opdracht 2
-Bij de tweede opdracht koos ik ervoor om een spelletje van vorig jaar [´Click it´](https://oege.ie.hva.nl/~sloota/clickit/) te veranderen in een 2 speler spelletje. Bij het origineel bewoog de stip uit zichzelf en moest je gewoon raak klikken, maar bij deze versie is het de bedoeling dat de ene speler probeert raak te klikken en de ander met de pijltjes de stip bestuurd. (ingedrukt houden werkt niet, want dat zou het voor speler 2 te makkelijk maken)
+Bij de tweede opdracht koos ik ervoor om een spelletje van vorig jaar [´Click it´](https://oege.ie.hva.nl/~sloota/clickit/) te veranderen in een 2 speler spelletje. Bij het origineel bewoog de stip uit zichzelf en moest je gewoon raak klikken, maar bij deze versie is het de bedoeling dat de ene speler probeert raak te klikken en de ander met de pijltjes de stip bestuurd. (ingedrukt houden werkt niet, want dat zou het voor speler 2 te makkelijk maken) Het enige wat nog niet gelukt is, is om te zorgen dat je omhoog en naar beneden ook vaker kunt indrukken dan 1x, want daarna registreerd hij niet meer dat deze wordt ingedrukt, terwijl opzij wel werkt.
  
 Een link naar opdracht 2, om zelf uit te kunnen uitproberen:
 
