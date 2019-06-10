@@ -4,3 +4,4 @@ Voor opdracht 3 ga je een functionaliteit ontwerpen met externe data, en testen.
 
 De uitgewerkte opdracht om films te laden:
 [Versie 1](https://sloota.github.io/frontendvoordesigners/opdracht3/v1/)
+[Versie 2](https://sloota.github.io/frontendvoordesigners/opdracht3/v2/)
