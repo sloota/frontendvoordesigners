@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    padding: 0;
+    font-family: "Segoe UI", "Myriad", "Verdana", sans-serif;
+    transition: background 0.3s;
+    color: #000000;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    height: 4.2rem;
+    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.3);
+}
+
+nav {
+    margin: auto;
+    width: 95vw;
+    max-width: 1200px;
+    padding: 0;
+    position: relative;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin-left: 1.5rem;
+    margin-top: 0.9rem;
+    cursor: pointer;
+    font-family: Roboto slab;
+}
+
+nav li:first-child {
+    margin: 0;
+    margin-top: 0.5rem;
+    margin-right: auto;
+    font-size: 2rem;
+}
+
+nav li a {
+    color: #e52721;
+}
+
+nav li a:visited {
+    color: #e52721;
+}
+
+nav li button {
+    background-color: white;
+    padding: 0.75rem;
+    font-family: roboto slab;
+    border-radius: 50px;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-family: Roboto slab;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+
+    text-decoration: none;
+}
+
+main {
+    width: 95vw;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5.2rem;
+    margin-bottom: 3rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.jumbotron {
+    background-image: url("../images/theater.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-top: 3.6rem;
+}
+
+.jumbotron-tekst {
+    padding: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+
+.jumbotron h1,
+.jumbotron p {
+    color: whitesmoke;
+}
+
+.jumbotron h1 {
+    margin: 10px;
+    font-size: 8vw;
+    letter-spacing: 4px;
+}
+
+.jumbotron-tekst > p {
+    margin: 10px;
+    font-size: 1.2em;
+}
+
+.categorie-tekst {
+    font-size: 2rem;
+    color: dimgrey;
+    text-align: center;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    float: right;
+    margin: 0.5vw;
+}
+
+.svg-icon {
+    width: 1.5rem;
+    margin: 0;
+}
+
+/* articles */
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.articles article {
+    justify-content: center;
+    background-color: #ffffff;
+    margin: 1rem 1rem 0 0;
+    box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    width: calc(33.3% - 1rem);
+    transition: all 0.3s;
+}
+
+.articles article:hover {
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.articles article a:hover {
+    background-color: #005ca0;
+}
+
+.articles article h3 {
+    font-weight: bold;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+.articles article p {
+    white-space: normal;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    color: grey !important;
+}
+
+.articles article img {
+    margin-top: 0;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+    height: 300px;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.articles article button {
+    background-image: url('../images/hartleeg.png');
+    background-position: center;
+    background-size: cover;
+    padding: 12px;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+.liked {
+    background-image: url(../images/hartvol.png) !important;
+}
+
+.darkmode {
+    color: #ffffff;
+    background-color: #111111;
+}
+
+.darkmode2 article {
+    background-color: #222222 !important;
+}
+
+@media only screen and (max-width: 768.8px) {
+    .articles article {
+        width: calc(50% - 1rem);
+        margin-right: 1;
+    }
+}
+
+@media only screen and (max-width: 425.8px) {
+    .articles article {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    header {
+        height: 7.9rem;
+    }
+
+    main {
+        margin-top: 8.9rem;
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+
+    nav ul li {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+
+    nav li:first-child {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        margin-top: 0.75rem;
+    }
+
+    h1 {
+        text-align: center;
+    }
+}
